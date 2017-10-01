@@ -1,0 +1,1364 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Link.Link">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Link.Link">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54.00005" y="54" width="1710" height="625" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>SQL Query</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="79.00005" y="466.1038" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="start_url" />
+                <Field name="Datasource Owner" />
+                <Field name="Datasource Identifier" />
+                <Field name="Query" />
+                <Field name="includeTableSchema" />
+                <Field name="URL" />
+                <Field name="authorization" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>https://api.data.world/v0/sql/</c>
+                  <c>cityofchicago</c>
+                  <c>building-violations</c>
+                  <c>select * from building_violations_1 limit 100</c>
+                  <c>false</c>
+                  <c>https://api.data.world/v0/sql/data4democracy/drug-spending?query=SELECT*FROM lobbying_keyed&amp;includeTableSchema=false</c>
+                  <c>eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcm9kLXVzZXItY2xpZW50OnBldGVyZ2Vuc2xlciIsImlzcyI6ImFnZW50OnBldGVyZ2Vuc2xlcjo6MDAwOWEyYTctYWIxYi00N2YyLTgzYTYtOWNkNTRhZWE0MTZmIiwiaWF0IjoxNTA2NjM3NDA2LCJyb2xlIjpbInVzZXJfYXBpX3JlYWQiLCJ1c2VyX2FwaV93cml0ZSJdLCJnZW5lcmFsLXB1cnBvc2UiOnRydWV9.DYuMPF6tUEOKc1Sy521R5Se7EJXmzCWVtz0xvBsVRZLk8-dr67410L5jpRQTBL0vDERxbnZQknBMRkacyRcZSg</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="45" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" source="TextInput:" type="Bool" />
+                <Field name="URL" size="116" source="TextInput:" type="String" />
+                <Field name="authorization" size="356" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+            <Position x="644.9202" y="536.5839" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <URLField>VERIFY</URLField>
+              <OutputMode>String</OutputMode>
+              <CodePage>65001</CodePage>
+              <EncodeURLs value="True" />
+              <Headers>
+                <NameValues>
+                  <Item name="content-type" value="application/json" />
+                </NameValues>
+                <Fields orderChanged="False">
+                  <Field name="authorization" />
+                  <Field name="start_url" selected="False" />
+                  <Field name="Datasource Owner" selected="False" />
+                  <Field name="Datasource Identifier" selected="False" />
+                  <Field name="Query" selected="False" />
+                  <Field name="includeTableSchema" selected="False" />
+                  <Field name="VERIFY" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </Fields>
+              </Headers>
+              <Payload>
+                <HTTPAction>GET</HTTPAction>
+                <QueryStringBodyMode>Compose</QueryStringBodyMode>
+                <ComposeNameValues />
+                <ComposeFields orderChanged="False">
+                  <Field name="start_url" selected="False" />
+                  <Field name="Datasource Owner" selected="False" />
+                  <Field name="Datasource Identifier" selected="False" />
+                  <Field name="Query" selected="False" />
+                  <Field name="includeTableSchema" selected="False" />
+                  <Field name="authorization" selected="False" />
+                  <Field name="VERIFY" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </ComposeFields>
+              </Payload>
+              <UserName />
+              <Password />
+              <numConnections>2</numConnections>
+              <Timeout>600</Timeout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="authorization" size="500" source="Formula: &quot;bearer&quot;+ &quot; &quot; +[authorization]" type="V_String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1638.516" y="329.8123" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Peter Gensler\AppData\Local\Temp\Engine_6456_730c5b2f54f640d999d5101093cc82a4_\Engine_6520_e1121787707f4408b18c7251d1d6793f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.JSONParse.JSONParse">
+            <Position x="879.9632" y="581.9456" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <JSON_Field>DownloadData</JSON_Field>
+              <IncludeInOutput value="False" />
+              <SingleField value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="authorization" size="500" source="Formula: &quot;bearer&quot;+ &quot; &quot; +[authorization]" type="V_String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="JSON_Name" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="JSON_ValueString" size="1073741823" source="JSONParse: " type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONParse" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="550.9201" y="548.1517" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;bearer&quot;+ &quot; &quot; +[authorization]" field="authorization" size="500" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[authorization = "bearer"+ " " +[authorization]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="authorization" size="500" source="Formula: &quot;bearer&quot;+ &quot; &quot; +[authorization]" type="V_String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="456.3599" y="467.9119" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="URL" selected="False" size="2000" />
+                <SelectField field="authorization" selected="True" size="500" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="authorization" size="500" source="TextInput:" type="V_String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="757.4401" y="388.456" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Peter Gensler\AppData\Local\Temp\Engine_6456_730c5b2f54f640d999d5101093cc82a4_\Engine_6520_d3774e7906b644f886fb6bef5053160e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1125.6" y="518.7199" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="authorization" selected="False" />
+                <SelectField field="DownloadHeaders" selected="False" />
+                <SelectField field="URL" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+                <Field name="JSON_Name" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="JSON_ValueString" size="1073741823" source="JSONParse: " type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="1224.6" y="516.7198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>JSON_Name</Field>
+              <NumFields value="2" />
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>JSON_Name</RootName>
+              <Delimeters value="." />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+                <Field name="JSON_Name" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="JSON_ValueString" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field description="TextToColumns: Parsed from JSON_Name" name="JSON_Name1" size="1073741823" source="TextToColumns: Parsed from JSON_Name" type="V_WString" />
+                <Field description="TextToColumns: Parsed from JSON_Name" name="JSON_Name2" size="1073741823" source="TextToColumns: Parsed from JSON_Name" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1323.6" y="514.8479" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="JSON_Name" selected="False" />
+                <SelectField field="JSON_Name1" selected="True" rename="record id" />
+                <SelectField field="JSON_Name2" selected="True" rename="column name" />
+                <SelectField field="JSON_ValueString" selected="True" rename="value" />
+                <SelectField field="start_url" selected="True" />
+                <SelectField field="Datasource Owner" selected="True" />
+                <SelectField field="Datasource Identifier" selected="True" />
+                <SelectField field="Query" selected="True" />
+                <SelectField field="includeTableSchema" selected="True" />
+                <SelectField field="VERIFY" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from JSON_Name" name="record id" size="1073741823" source="TextToColumns: Parsed from JSON_Name" type="V_WString" />
+                <Field description="TextToColumns: Parsed from JSON_Name" name="column name" size="1073741823" source="TextToColumns: Parsed from JSON_Name" type="V_WString" />
+                <Field name="value" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="1422.6" y="511.5866" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="record id" />
+              </GroupFields>
+              <HeaderField field="column name" />
+              <DataField field="value" />
+              <Methods>
+                <Method method="Concat" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field description="TextToColumns: Parsed from JSON_Name" name="record id" size="1073741823" source="CrossTab:Group:Concat:" type="V_WString" />
+                <Field name="address" size="2048" source="CrossTab:Header:column name:address:Concat:" type="V_WString" />
+                <Field name="department_bureau" size="2048" source="CrossTab:Header:column name:department_bureau:Concat:" type="V_WString" />
+                <Field name="id" size="2048" source="CrossTab:Header:column name:id:Concat:" type="V_WString" />
+                <Field name="inspection_category" size="2048" source="CrossTab:Header:column name:inspection_category:Concat:" type="V_WString" />
+                <Field name="inspection_number" size="2048" source="CrossTab:Header:column name:inspection_number:Concat:" type="V_WString" />
+                <Field name="inspection_status" size="2048" source="CrossTab:Header:column name:inspection_status:Concat:" type="V_WString" />
+                <Field name="inspection_waived" size="2048" source="CrossTab:Header:column name:inspection_waived:Concat:" type="V_WString" />
+                <Field name="inspector_id" size="2048" source="CrossTab:Header:column name:inspector_id:Concat:" type="V_WString" />
+                <Field name="latitude" size="2048" source="CrossTab:Header:column name:latitude:Concat:" type="V_WString" />
+                <Field name="location" size="2048" source="CrossTab:Header:column name:location:Concat:" type="V_WString" />
+                <Field name="location_2" size="2048" source="CrossTab:Header:column name:location_2:Concat:" type="V_WString" />
+                <Field name="longitude" size="2048" source="CrossTab:Header:column name:longitude:Concat:" type="V_WString" />
+                <Field name="property_group" size="2048" source="CrossTab:Header:column name:property_group:Concat:" type="V_WString" />
+                <Field name="ssa" size="2048" source="CrossTab:Header:column name:ssa:Concat:" type="V_WString" />
+                <Field name="violation_code" size="2048" source="CrossTab:Header:column name:violation_code:Concat:" type="V_WString" />
+                <Field name="violation_date" size="2048" source="CrossTab:Header:column name:violation_date:Concat:" type="V_WString" />
+                <Field name="violation_description" size="2048" source="CrossTab:Header:column name:violation_description:Concat:" type="V_WString" />
+                <Field name="violation_inspector_comments" size="2048" source="CrossTab:Header:column name:violation_inspector_comments:Concat:" type="V_WString" />
+                <Field name="violation_last_modified_date" size="2048" source="CrossTab:Header:column name:violation_last_modified_date:Concat:" type="V_WString" />
+                <Field name="violation_location" size="2048" source="CrossTab:Header:column name:violation_location:Concat:" type="V_WString" />
+                <Field name="violation_ordinance" size="2048" source="CrossTab:Header:column name:violation_ordinance:Concat:" type="V_WString" />
+                <Field name="violation_status" size="2048" source="CrossTab:Header:column name:violation_status:Concat:" type="V_WString" />
+                <Field name="violation_status_date" size="2048" source="CrossTab:Header:column name:violation_status_date:Concat:" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="record id" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="88.80022" y="175.6" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="263.8398" y="178.4402" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="594.8399" y="171.8401" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="90.72024" y="262.4518" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="981.2001" y="211.4" width="138.9999" height="40.48" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Include Table schema- currently set to False</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="290.4803" y="471.3201" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" field="VERIFY" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>VERIFY = [start_url]+[Datasource Owner]+"/"+[Datasource Identifier]+"?"+"query="...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="URL" size="116" source="TextInput:" type="String" />
+                <Field name="authorization" size="356" source="TextInput:" type="V_String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="264.8398" y="263.72" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="435.36" y="174.0001" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="430.3801" y="263.8121" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="592.9599" y="262.912" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+            <Position x="773.52" y="173.44" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="766.3801" y="256.3919" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="199.36" y="471.4556" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Query" selected="True" size="500" />
+                <SelectField field="includeTableSchema" selected="True" type="String" size="10" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="URL" size="116" source="TextInput:" type="String" />
+                <Field name="authorization" size="356" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+            <Position x="88.32004" y="113.9201" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+            <Position x="264.5601" y="118.3596" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+            <Position x="437.8" y="102.1599" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+            <Position x="594.5599" y="98.27994" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="739.0322" y="543.8078" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>Filter</When>
+              <Filter>Contains([DownloadHeaders], "400 Bad Request")</Filter>
+              <Type>ErrorStop</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>'data.world API error.'+ [DownloadData] + REGEX_Replace([DownloadHeaders], '.*(HTTP\/1.1 [^12]\d\d).*', '$1')</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>error if HTTP 400 or 200</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="authorization" size="500" source="Formula: &quot;bearer&quot;+ &quot; &quot; +[authorization]" type="V_String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1521.6" y="474.7119" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="record id" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="address" size="2048" source="CrossTab:Header:column name:address:Concat:" type="V_WString" />
+                <Field name="department_bureau" size="2048" source="CrossTab:Header:column name:department_bureau:Concat:" type="V_WString" />
+                <Field name="id" size="2048" source="CrossTab:Header:column name:id:Concat:" type="V_WString" />
+                <Field name="inspection_category" size="2048" source="CrossTab:Header:column name:inspection_category:Concat:" type="V_WString" />
+                <Field name="inspection_number" size="2048" source="CrossTab:Header:column name:inspection_number:Concat:" type="V_WString" />
+                <Field name="inspection_status" size="2048" source="CrossTab:Header:column name:inspection_status:Concat:" type="V_WString" />
+                <Field name="inspection_waived" size="2048" source="CrossTab:Header:column name:inspection_waived:Concat:" type="V_WString" />
+                <Field name="inspector_id" size="2048" source="CrossTab:Header:column name:inspector_id:Concat:" type="V_WString" />
+                <Field name="latitude" size="2048" source="CrossTab:Header:column name:latitude:Concat:" type="V_WString" />
+                <Field name="location" size="2048" source="CrossTab:Header:column name:location:Concat:" type="V_WString" />
+                <Field name="location_2" size="2048" source="CrossTab:Header:column name:location_2:Concat:" type="V_WString" />
+                <Field name="longitude" size="2048" source="CrossTab:Header:column name:longitude:Concat:" type="V_WString" />
+                <Field name="property_group" size="2048" source="CrossTab:Header:column name:property_group:Concat:" type="V_WString" />
+                <Field name="ssa" size="2048" source="CrossTab:Header:column name:ssa:Concat:" type="V_WString" />
+                <Field name="violation_code" size="2048" source="CrossTab:Header:column name:violation_code:Concat:" type="V_WString" />
+                <Field name="violation_date" size="2048" source="CrossTab:Header:column name:violation_date:Concat:" type="V_WString" />
+                <Field name="violation_description" size="2048" source="CrossTab:Header:column name:violation_description:Concat:" type="V_WString" />
+                <Field name="violation_inspector_comments" size="2048" source="CrossTab:Header:column name:violation_inspector_comments:Concat:" type="V_WString" />
+                <Field name="violation_last_modified_date" size="2048" source="CrossTab:Header:column name:violation_last_modified_date:Concat:" type="V_WString" />
+                <Field name="violation_location" size="2048" source="CrossTab:Header:column name:violation_location:Concat:" type="V_WString" />
+                <Field name="violation_ordinance" size="2048" source="CrossTab:Header:column name:violation_ordinance:Concat:" type="V_WString" />
+                <Field name="violation_status" size="2048" source="CrossTab:Header:column name:violation_status:Concat:" type="V_WString" />
+                <Field name="violation_status_date" size="2048" source="CrossTab:Header:column name:violation_status_date:Concat:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="762.7999" y="462.4" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="authorization" size="500" source="Formula: &quot;bearer&quot;+ &quot; &quot; +[authorization]" type="V_String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="882.5997" y="428.2" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Contains([DownloadHeaders], &quot;400 Bad Request&quot;)" field="Length" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Length = Contains([DownloadHeaders], "400 Bad Request")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="start_url" size="30" source="TextInput:" type="String" />
+                <Field name="Datasource Owner" size="13" source="TextInput:" type="String" />
+                <Field name="Datasource Identifier" size="19" source="TextInput:" type="String" />
+                <Field name="Query" size="500" source="TextInput:" type="String" />
+                <Field name="includeTableSchema" size="10" source="TextInput:" type="String" />
+                <Field name="authorization" size="500" source="Formula: &quot;bearer&quot;+ &quot; &quot; +[authorization]" type="V_String" />
+                <Field name="VERIFY" size="1073741823" source="Formula: [start_url]+[Datasource Owner]+&quot;/&quot;+[Datasource Identifier]+&quot;?&quot;+&quot;query=&quot;+[Query]+ '&amp;'+&quot;includeTableSchema=&quot;+[includeTableSchema]" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="Length" size="1073741823" source="Formula: Contains([DownloadHeaders], &quot;400 Bad Request&quot;)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="97">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+            <Position x="1624.6" y="472.5999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Name>Output97</Name>
+              <Abbrev>O</Abbrev>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="26" Connection="Question" />
+      <Destination ToolID="31" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="26" Connection="Question" />
+      <Destination ToolID="47" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="27" Connection="Question" />
+      <Destination ToolID="34" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="27" Connection="Question" />
+      <Destination ToolID="48" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="28" Connection="Question" />
+      <Destination ToolID="37" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="28" Connection="Question" />
+      <Destination ToolID="50" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="34" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="36" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="37" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="45" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="35" Connection="Question" />
+      <Destination ToolID="36" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="35" Connection="Question" />
+      <Destination ToolID="49" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="38" Connection="Question" />
+      <Destination ToolID="45" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="97" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (26)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (27)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (35)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (28)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (38)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data.World Query</Name>
+      <Description>Read and query data from data.world with the data.world API</Description>
+      <RootToolName />
+      <ToolVersion>1.0.0</ToolVersion>
+      <ToolInDb value="False" />
+      <CategoryName>Connectors</CategoryName>
+      <SearchTags />
+      <Author>Peter Gensler</Author>
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="Example" displayed="Example" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="31" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcm9kLXVzZXItY2xpZW50OnBldGVyZ2Vuc2xlciIsImlzcyI6ImFnZW50OnBldGVyZ2Vuc2xlcjo6MDAwOWEyYTctYWIxYi00N2YyLTgzYTYtOWNkNTRhZWE0MTZmIiwiaWF0IjoxNTA2NjM3NDA2LCJyb2xlIjpbInVzZXJfYXBpX3JlYWQiLCJ1c2VyX2FwaV93cml0ZSJdLCJnZW5lcmFsLXB1cnBvc2UiOnRydWV9.DYuMPF6tUEOKc1Sy521R5Se7EJXmzCWVtz0xvBsVRZLk8-dr67410L5jpRQTBL0vDERxbnZQknBMRkacyRcZSg</ReplaceText>
+              <Destination>1/Data/r/c[2]</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="34" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>data4democracy</ReplaceText>
+              <Destination>1/Data/r/c[2]</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="36" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>drug-spending</ReplaceText>
+              <Destination>1/Data/r/c[3]</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="37" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText><![CDATA[SELECT * FROM ]]></ReplaceText>
+              <Destination>1/Data/r/c[4]</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="45" />
+              <Expression>iif([#1]="false", [Destination]="false",[Destination]="true")</Expression>
+              <Destination>1/Data/r/c[5]</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>"API Key is required"</Description>
+              <ToolId value="47" />
+              <Expression>isempty([#1])</Expression>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>Datasource owner is required</Description>
+              <ToolId value="48" />
+              <Expression>isempty([#1])</Expression>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>Datasource identifier is required</Description>
+              <ToolId value="49" />
+              <Expression>isempty([#1])</Expression>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>"SQL query is required"</Description>
+              <ToolId value="50" />
+              <Expression>isempty([#1])</Expression>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Configure SQL Query</Description>
+          <Name>Tab (22)</Name>
+          <ToolId value="22" />
+          <Questions>
+            <Question>
+              <Type>Label</Type>
+              <Description>This will return data from your query which can be used in your workflow</Description>
+              <Name>Label (96)</Name>
+              <ToolId value="96" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>Please enter your API Key</Description>
+              <Name>Text Box (26)</Name>
+              <ToolId value="26" />
+              <Default />
+              <Password value="False" />
+              <Multiline value="True" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>SQL Query</Description>
+              <Name>LabelGroup (53)</Name>
+              <ToolId value="53" />
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Please enter the datasource owner</Description>
+                  <Name>Text Box (27)</Name>
+                  <ToolId value="27" />
+                  <Default>data4democracy</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Please enter the datasource identifier</Description>
+                  <Name>Text Box (35)</Name>
+                  <ToolId value="35" />
+                  <Default>drug-spending</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Please enter your SQL query below</Description>
+                  <Name>Text Box (28)</Name>
+                  <ToolId value="28" />
+                  <Default>Refer to the 'Explore' button on the data's page to test your SQL</Default>
+                  <Password value="False" />
+                  <Multiline value="True" />
+                  <Hidden value="False" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Include table schema?</Description>
+              <Name>Check Box (38)</Name>
+              <ToolId value="38" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Need Help?</Description>
+              <Name>LabelGroup (58)</Name>
+              <ToolId value="58" />
+              <Questions>
+                <Question>
+                  <Type>Link</Type>
+                  <Description>data.world api reference</Description>
+                  <Name>Link (55)</Name>
+                  <ToolId value="55" />
+                  <LinkDest>https://dwapi.api-docs.io/v0/intro</LinkDest>
+                </Question>
+                <Question>
+                  <Type>Link</Type>
+                  <Description>data.world sql reference</Description>
+                  <Name>Link (54)</Name>
+                  <ToolId value="54" />
+                  <LinkDest>https://docs.data.world/tutorials/dwsql/index.html</LinkDest>
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (97)</Description>
+              <Name>Macro Output (97)</Name>
+              <ToolId value="97" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="True" />
+      <MacroCustomHelpLink>www.google.com</MacroCustomHelpLink>
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAAKsAAACrCAYAAAAZ6GwZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADr0AAA69AUf7kK0AACyHSURBVHhe7V0HfFzFmZdpIRcgBJJcElIul7vchcsBxiQQEg6SSyBHwJhiAzZgcMM2GBdpV5ILiwGDK5Lci1yl3dWurGK5V7kXFWuL6qo3q9mSLGm16t9932h2vVo9SbvSVun9f7+/V35v3rx58/7zzTflzfgNZ8hkcFvQbs2vx6vVt/ND/QBGydTpd/H/iBDhfoxHAUrk2mnzd6U95Acwih8WhH9kxi+C5Lq/zgkzfIsfEiHCvZAB3CaN1LwmVWinz92Zdj8/LAj/PZrvYDhpYJT+UbLM/LAIEe5FgFL/K6lCp5YotG/POdSf9YRREoVmpkSh+1Iao/3pQBZZhAiXwP8oWk65djW6Bhekcv0Lsp2Fd/NTvSCN0D6F4j4fKNd9GqzQ/TM/7K0Y9ftJYfc9MiVs9OipYS//bsbmJ/hxEc6GLCHln6QK/bxAuf4zFMgnErluvCRC+7hEkfUTmSr9AWc2fqh6x7jHSuT6Solccwbv94/5qovf5qd7AH3Y76G4t6O4CwLkuqDg7Vd/wE95DcbMWP390dNCl46eHpb/+PQwID4xa/N5flqEsyGN0r+AooFelGtbpHJdOYolCX/3oZgXBso1f1qg1P9Mlti3VSQ8Pi1szOPTQl96ZErob8fM2PJdftgCtJw/Rf/0OMbdjlX+lQC55vU5EYb7+GkLZImJd+C9P8CwNZQW/F1K1/LTHsNT89d8+7HpoZNRqNfMIkXW4TNvf2Tmxh/yYHaBnjEoNvPBAGXyr6hGoUapJFL7NbpMSuQRrIU29e86jSCgMJf1Emq/1DagwHLxb7VUqZ2IFvBfe3ZRwajR08IO0AscPT20A19oyZhpYaG/m73+RzwAA1lUfDFozalQaLvw72K0tp8G7k7/OQ9iQWDU1UfxXskUDnkDX+LmeYq0/+Kn3QoqiPhMV8wiRavaPHp6SPgT76/+GQ/SJ6hmWRiR+WN/heZJfIb5WIvF428WPjvWNNrW3nmNlOs6yKBQvvJoRibUargdM2OnYCbZTyMKKANFN+8T7l8+PHv9PaOnhaxm1ubWS73x+PTQuU+9scZS7VNvQWBE2nOYhgpzfPjSGtEtifOP0D83Y0vKnTyo32x1+j34YtdhQWnjYU143WV/RdoEdFXu4cFchvHj1bfjMyxDoRq7nym0a8z0sLOPT1/z36jCPnsvqJeDnhGFGYJ5lI/pvonP0Gl+Xrso130z4ntIqHrBjFALZtAgiC/BhC9lF7kKFP+jk0Puf3x6yFp8we1ctF1obfPIOrEEcMyNS7sfX+RpFGqXJS5uRaWRmpVSRQa3ojCKdYXRcav74jM04+82yW7dE654qY9MW/drrOLzKP3sOaaF1qIbMLE/kQYx66lTUtqsn2tw1O63b4BlGMPZYu1BuXatLK6Q9a2OnrLuJ/iCD6NIO7lo0dKGrP79nLAefiqmZQle29Qrrm5W4/kvyK/zV2l+iVY2CY8JiYDclFVU1ZJlhqF0f6EY0YKSb2qxpvgcCY99ECbY2KOCgo3Bv0qV+mSBdA2eclGsfjI13IWZ4RqxdrMKGwhvkbtB9xszJWQcWtYKs2Dx5WeigJ9iieEIVKX/BS1RjkBctyjXNuBvArKmx3EbomhvYlwqSaT+XWqY9dXzIISHZeq7MG3fYNXPagX0w5sxvbPRH+glGhmKOjgq87fSSO1xoXQMlfgMx0SxJlaRH5golEHOIsbfia6BPGh35oN0z4enrnng0akhe9BatXLBNiDnzgm7fB+NcsmQwar0h/Has7ZxDYnYUMGXnk5uSmCk9n0pNtD8I1N/QQ0eiSL1J+RvU3cZ1QZ/Wah6CAtVPKsJpoXCY9NCtL+dGvoIJr+XlZZFGO4LxIYixi3cQHICAxX6UnOBH7GQqUoeoBcolEHOJqu2IzUBeL/PgpXpGyatPlz15KwN3RYWRfG8ZE+mf8TVPLSaeRi+CtmAfw/R1+ufKFzqOqsnol+IVlqf//G2y3lPf7SpqtuahsLfpLu75u9OpYKzIUChWUbPECjXvxcQqX1FotQ+g9deso3X2cR0llk3NkcksKVKvp9JKINczUClHuaEX4a/LNjBRNEtjD0wf1eKYHiXE9Pz8bZL8MwnW1kBGj01BMbJoiEgUiMc3r2smYVWn7+2kYkAJVWHgpnjNvrvuQovBsstgn1m7jaYg6Ih8QiFdxU/wYLzpzlbWBoeQ769/AD5xoJhPcAm6s/mr23kQZYId2DVd1QgYzzCNz6P5Y2uMPjD7E3dghUI5wqSNf/jx5st95+08pBgOI+R3KEI7RsjdmKPVHn1afQf0VcTyBwPkNyCd1cdhjFcML/7cB3M3nKBHRcK7ywu2J3KhIqtfmZVJ6046PJ7Do7atBE3SZ0aVdgy3ocZ0NI7QzxLbPXC+yHHWTVMgn1y5nrm17rKJQiITIPnJbvZvR6d8g28/fV+LxVqd69KQJT+j/w1Dn9gq/LF7lavcIZ4A0ksH4SegEdQPCSiP360Cea5oNEVhPcZJ9sLj2FDiizqa5/t9VqhWkj9y5H6qfx1DlfAqECaOEHj6UKZMEhifNStwv4OtKL5nHVYR0iieXflLZfgz/O3g8SJrXKK/701R5kFJ6E+L91DHe+CYb2NmM52SaQuZFjOFZDJErEhpQmmPkWhh7eXJL7gKD0si8uCjcfy4ISmCjJLbkJDczsYWzvA1NppYVNLO1xvbAVNYT3EXi6HVftz4NPoDMF4+2JQVDqM/zKeZm4xQf1joVww3GBIrgW5GFQQnvlkm6WA+QpRsJ0SpW7XMPNhYRRW+5Px4QbVuU5W8+v4bFCeL4G8a03Q1tEFXV0wKHR0dsGNhlY4mFoBy/dlC97PliTYlxZHMbFSA+jd1UcEwzlCsqDPzQ3nPvEGmLXpvGA4e0j5swjTuDIhG9YdyYPtiYUQn1QOCUnXupl8DcLx2Kbj+bAaC+xnezMgAO8/lFrHQnyn9CXFsBmGpUkfzM8Retg+SC/g85hMiL1SDlV1pkGLsz90YaSl15sh4kwxBA/gJwZEpMFf/HcycdHQ58xN5wTD2UvqljLHNXHFAYf91IVYu2w6lg8ndFVQWdfCCiE9z0CgIJ34TzPWQvqieth7uQxWJeQMSbh8QGcCf92+C5pRhRlxwfYB+yKJNOxQLugwI+kFuAs1N1tBgZZbKE1mfrL9iqXafm5eOPijgIXCDUQaoSKRkqX+e2CEQ53+K7E2uGy4AU2mdp5y56C+qQ0uGa5D6CEDFhzhew9AQ7DK+z75cQgovhlSuc6uyRVrD+dCUbWRlXxPgO5aVN3Up6Uh6zct7CQTK7kDry2NcdgiUvX/0qIoFsfvUfhUAITCWZMK8LrDeZBf2dSdUBejur4FjmoqYZEq3W6Li+E60cKu4a/dN4G+6kWhhzOTXt43BwxQVGXkWeV5tLZ1Mp+P/DqhNNOwLImNBgxY/6tAGCGSsKevPw2jp3b7vhOX99+fSiJdujcTskpveqQAt7Z3QnJeLXwRm2mXaDFMqc9OdJHtz/89PoTgJGZ6+MVYcjNLGtxa3dsL0oa++Cb4R/YWLAnsaT4sShNg7G3F0zP/TbKbCfXZudsEw5hJBSXuShkrOJ5GW0cn61FZokZLiwVIKL2Mcm1roCJ9Dn/9voXAKP0Wqh56P5QO5GeLvVKktqjBKpFeku0zTFp1mImVSD6o7Xkhzt58nvmqT6BF/nBdomAYIo2gpWNB8TZ04vs6mlbJBjL6sbSnfG7OK/W9YUnr9VnFp9HprPvJl1B2o5lVx9bPEazKYI0jaiQ9MX3tgIMFZI3N0xBfXCiHoCjh/l4qGOU3TPzO3ok2dA+oJ0LITZIo9Pk0mZ7LwDcgic+6V6rQF1o/yPqjedDiBdXaYFBSY0Qh9RTYLLSUY2asZQKctrZvS0mkoVqyqNSo+njrxV7nyVJRV11js3Nb+a4EuQbkylk/BxbKBllC9ve5DHwDQQeKv4eJZ+P/VG0c1VTxR/RdZJU14LNYvZiodBi7RMVcgefQB6XGovmcLd+kUTAU9auyaDbIYH2O/MAV+7LB1NrB7+Q7IFduM1pZcu3487TKYvIcWmDD4wiKLXsQfa96qj5zrzXyR/N9XMi+3kNo83ensl4BEuKHG870OGcm9cc+PjWUWVXb3gOyqDR0TB37vgwanKD+WSywrUGq9H/jMvAN0MdvKNTWa7Xe7X85CrIku04XWVrF1BPw+tIYZl1fRitrLUQzP9x4Bh5DsdLnKbZWlfoyDeXDozCnl9yEhSp926Lo3Oe4DHwDB65WvnKzqc13HDAH0NzSweYVmFvE1HiirwpodMt2VItcAxIz+bZzdyT3OEcNFLLUwwkVtab2qItl47kMvB9dXV2Pd3R0lvH0D0tQ44J8cbPwXkVBkitAXxlYC5J6CZ6atQFekO7p0R9Lljn8ZAG0d3h/952jaO/orMSfP3E5eC9QqP+FzOtO9vAFDRrsZu5Ad6PKLEr6MtYsSOLszeeYi+C/55bFJYv8qTqDTWscrkANXEP+mcvC+4CJ+ykyg6d32IP6Q9FHs4iQrOsfZm+0CJjcg4krDrLZWvS3ORw1RC5l3+CxDF+gFqgLyDstLCYutTuZIwfxV8otja2525PYUCp9Tm0WJjWqPlhzzPJ/EvLGY/n86uEP1ARZ2F9yiXgemJhvIaORw88BGwC1ja3sywUmRrSeLy9SwgS0sGZhvrxQzvpjzWKlebM0j3QkAWVRhvT44st+mJbbMCELupM1MqE4V2wRI03K/tMnW9nftIoKfRJjdgHIVw0/WcivGllAjZxBena+KybgBaT3zO/zAOgzG+ovZYJEa0ozqujLgnk7kmDmxrMWIVPvQU55A79q5AF1sg1/+l1a32XAmz+ETOtOysjG1pMFFlFO+eYYG9myndwSciiXzVwaqUCttCHncfm4F3jjrciRm/tWoCl95uqeVldZsOdqD6GSxaW5uyMdKJcK/HmMS8g9wJu+iBRz3wr0fZRZmERrscqiM9jIlwiGFNSO3QsqDwl4o+8gs/iNRXDEJ5dbhmBtGXtpWA/oOQTUDs0TDUK6foE3vNlMpGgmbJBRcssVsCYNAtD3TCJuAfVDs3f+k0vKNcCb/AxJfocIG5D3bulztSItLCFCELuQd3BpOR8oVI/2qXZ2doLJZIKrqWmg1+rw7xYqpfys50HfllkLldwCxYUSflaENfC9dSCf59JyLjBiGvvX8Xu5Fe3t7XDk8DF4Y8I7MHbcBAtfe2MilJZ4jz+YlFeLjatbYiW3IL3I/R//UQGuuFYB8kglLJUtg6+XrYT9+w5Aa2srD+EdwHQewR/nf76Nkb7P7uBmtLW2wddfrYKXxo5Hgb4JL3O+8uqbMPvj+dDR7j3uMy3SYW1Z6QNJd8NoNEKgdBHmUXd+jcV8orx66+3JkGvwrglxKFYT0rmzszDeO3kpcCs6Ojph7dqNTKhmkd7iBFixfA0P6R2obWyzzFslF2DDEfeKo7KyCia8+S4TqHVe0f+DF8p4KO8C6ioef5zXM4CRPYaR1rDY3YiUpFR4+RWq8ntn/ktj34Ad28lH9x5YN7LIHdiXXM7PuB6NDY0wc9YnzIpa5xXjK+Nh08atPKR3AXV1Hem8mVkYmT+P220wNhlh/nwp8017ZT6JFV9A+LYdPLT3YPORfIsbcN6Nn63I5SrhvEJSwQ7ftpOH9C6gtqiFPAPpnIWJMb6LLGY3IjvbAM///ZVeVZqZY1+dAIsWL+WhvQf7k64xoVL/anaZewb5WtGvnzRpirBVRZJYt23dzkN7H1BfBvwZ+uIYGNEDSLc3uZVKNWa0kK/aTRLx2xPfh+pqt3sn/SI1r46JldwBWkrTHThx/BSzqn0XbO/1Wc1Ajf03l9zggZE8hXTvNECsGVauCunTUphJL4hcBfLXCNev34CkpBS2fKWnkF/RxMRK0wbd1QW8alVony4AkcT6xvhJkJam5Vd4H1Bjk7jkBgeMYxRG8m53dO5Ds7EZpNJFA4qVSGH+9vex8N47U+H//vEqe2mH9h+kh+exuRd1xjbWE/D53kx+xPVYsCBwwLyi85MnzwCtRs8K0dnT5yBQshCys7xjhA3f1zr8GXyfK12MkYSw2NyI2hu1MGPGR3aJ1UxzFUhiPXr4KI/J/TCLNfRgLj/iesz48GO7Czb5r3974WXWQP37i6/ClaRkHotngTpLwp/B7w2LF9+NkcSx2NyIuro6mDV7rkNiNZPEeub0WR6T+2EWa5gbxfrhh3MczivqDvz7i+O8SaxG5E+49BwHxnEPRuD26YA0LPjpp58P6gWQWJuaPLesJhOrXAfyM8X8iOvxoZ2W1ZoWsV7xDrFyDH5iNl5MYqVuBbdj27adfbZu+yK9gDcmTILm5mYei/thFqvinPsmsASg7+lwXmH4ca+9BXqd9yz1gFr7Hy49x4HXe0ysZ8+cxwbTaw69BAo7dfpsNjvLU6ht6nYDNh113/oAISHrWY0ilCd9kfLqvcnToazUeyYCodbe4tJzHHjxvUj3OV9WuIGNrLfees8xi4GNhm1bPTuqpSusd3sD68rlJCZWhwo2cunSr0ggPBbPA9PyJpee48CLv408xONyKygTY2LiYazA3AAh0ot6592p0NDg2U/DTmqrWD/r6gT3dQl1dnTCrFn2N0gpP6mbL/HUGR6Dd2BIYsXrqeuK+r88AppoTS+BZlgJZbqZJNQXX3oNDh10+8SwXth1qsgyKOBOHD1ynNUs9giWwkiliz3q2wsBtfYsl57jwOtpUOCD7qg8g4abDTBlysw+qzk69o+XXwelQu0VVZp5swwabq1rbONHXQ969uVfr2JC7M8dYAUbrWpBgfetDoPP8AiX3uCAEfwP0qPriBuNzfDVVyuZKEm09ELYSyGLi9YkyUu6X2ibSvO6rfRLQ6/uREtLC8z5eEHfBRuPvz7+HTDkeN+qpKixduTg+1kJGAFNZHHfxMx+UFdbB5cuXIIN6zfBzu272VAhffLiLbD9UsBTK1sfPXIMJr0zBcaRYLEwkxv12htvw7JlK+DmTe/bY4uAGruAP9/lsnMMeOEoiUr7H5/s0cQXVDQN35VvnQgSp/kbLPqlXac9BSrEJEzqVanFQk6fu3g5liMd/9pVllh4t0SpDcQMN9LqIqoLpd3RiegX64/k9bCsYYc80kXtk1BdLD23QK5zbC0B/z2a70jlGoVEobVsZflFTCbcaPCuLyO9DZQ/QTbrBizE/zcYxUrJHtASS2gYS9BIPsOl2D+2bIE7pXKdAi/qss70BZFaOJfpXZOcvQ2n0qt7CNVM2u9URP9Izau9tUGIXFcWoNT/iktSGDIZ3CaJ1LwrlWs7bDOcuGp/NmvtihAGbUVvzqvQvd1LtdNI1tojHhkA9BnQrtsh6C6ZfX2Wb3JdxpyIy/dxafYGVv8/RKE2mi+wZQBa11P6an4LEdbQFNSxBS2CFVpIu3AY8k/vAFXCcZZv1N/a7INbXboL1L23wGYtWyzknSjYcXha+BNtaZT+LesLhLh0b4bogwmAFgperNRCYXICmNLVTKy5J7fDsUMJLN+2nSjgIUVYgxZXXn80t5fOiCjW9BlbUv6Jy/MW5oQZvoUNKqXQRdakXfFoszHaFlJEN2h5oM9VGqhJi4VmFCqRxGpAsZJgk48pWUPrRqPYQLXFVayR5kcIb39PDfxARcZoLtFbkEZof4qOraCvakvyLS5kXffoR3negkb04TfsS4Wbur0WoVqL1cysE7vg4KVhv5edQ6DFlZfFZwlqzEKlPsDP1hXA1v9s2x6AfomCLawa0ftesLH4TL0OxanqIVQhsRJzTu6Emgr3fT3g7VCcLwF/bAcJ6osTNZnUwxVQq+F2tJbRQoH74xexmVBd79tbjw8aXR1gLE2FZn1vofYlVmLuqR3QcG1kLxpONfJ5rJmt97Ltk1TbK/W/4VL185Op0++RyrUFgoH7IXXLUHfNTaP7ZhZ5A7o62qC18AyKUlioxL7Eaub1vMtomUdmD0FBZRPbvE5IU71Itb1S9zGXqp9fQGT6Y/b6q7Yk/zXkoAGaTCMj47taG8FkOISC7FuoxIHEajgRDhW6Y9DZZuIxjwyUXW+GJepbOy7aQ9SYXGZeBytQrgtyyF+1IQl2eXw21DcNbwvb0VQFpsw4QXHackCxElGwJclx0N7snbOgnI2KWhN8FTdAg0qYqfNVJd+mqVWjJAptokAAh0guAa1AUoolZziivTYfmjN6tvj7o11iJaJgC84roeXm8B6SLb/RDMtQqGTYhPTTH1GfpmCV4Qfkr96FfkGGUKDBcFGUHq4Yhtf25G0VGkFB9ke7xcqZm7gTjDXeN3PfGahEi0qTVIT0Yhdp+F+ueYE1rtAqXhMMNEgGYOnZlVgE7R0+3hPb2QEthWdRfP37p0J0VKzE7ONboa5YgzcePj3YZLgWRPTfPTUQ+dDrp35Bct33sHHVLBRoKCS3gKwsrU/qRV/62o2u9mYw5R5F4TkuVOJgxErMQcFWZZ2hLgeeEt9EW3snW+Rj/hCFaia2qWL9Fig0o/EPy7xVZ5NK1dbjBVDX5DtDjR3GWmjOSkDRDU6oxMGKlZhzYhuUpe6Hznbf68Mmw0SDRV/GZA7KP+2L6Lde8ZPI08bTGKxQAGeRrCwlPOJsEVR58SACTX88oqkCQ9JBaBmCUIlDESuRBHsjnxbV851qiXqD5OeK2dxnIR0MhagfnZ9Uof16KN1WjpAES6MWu04XQWG15xZOswUVoP0p11gjgCbqfBl9FUpS9rHZU0JCtIdDEWveyXA4ezQGVu7PgfSSm17v+9Og0FFNJes/RS0JvvuhErVTiJZVt8JdYjWTLC39rkjIhtPp1VBZ5/6OcbKimqI62HQsn82IIpFap29NbEqPWVSOcihivXRUDUuiumciUbrWoGhT8mq9bv/XOrSkB1JvFXJz/rmC+E6K0LLqTrEhLYEA7iD1HJBY1hzIwQevAEN5o0ssCflS1Nd3Lus6bD1RAIvRCtC9zQXHlnQ8LC4JmvTRgmIciIMVa9oJBXyuSu2VLqqVlsZkwMGrFawryJPILL3JakfKQ0qXdTpdRXRVa2m21QX8j8fEak3mJij1LBNoCFd1qRQS0fIWVDRBY7P9E77b2jqhCJ385NxaiE0qR3Hmw+fo8NOMfbpHXwK1JYXbsu/yoAQ7GLHmnNwFX6uT+00fpZ8Wz6DCfQSr3mtYAF0NKujUq6O6WMrykVw5e/PQWcTnrvcqsdrSOkNomx4SG32pQCMhVDVac+W+HPYFLgmdwlp2+Rtiyac0qI+cA6NeWJR90XGx7oLl0f0L1ZYUlp6VnnvbyQLmUlXXD73XhbqdsksbIPZKGYQeMsASVfdYvrsFak0mVmxgncf/eKVYvYUSuR72H0+E1gz7ewgcE+sOCI8/5xQxdAtYzyzgyoQcWHskj7XQ46+Uw8XM63A5+4aFibpqiL2ENQ8KnT7Y+yo+Cz7lI02eFKYQzZZ1lbsbWL5Gss4LozIgT3MehRjVS5hCtFes+afCYVPsGeY/C93bWSTx0XP0oE0YbyZqtNgjvQG+xE/RrciraOzu7UTnrbWIhl+FBWpNe8SacyIc6tnwKnWkN8Hn6OIIpUEkK1hFftJIzWuuHhTwRVJ1eDlHYEJOVwe0FJxEQfbvEtgj1hpD7x1GNQX17AsMoTSNZKJR1fkt2HP1abSsolitGHm2eIDFPLqgJY/mDQgLlTiQWCv1x9FQC/ebtrZ1ssZNoMLO2fQjgXJtMpvIQvMFBQOMIJL/9hlWw7qiei6Z/sG+GMg5KChUYt9iDYdyzWEeS//Iq2iCZXGZPuVbuoxy3T6/2fT9lUJX0evkCCI1NjYdz2cjMo6g01QPzX18OdCXWEuT4qCzzf6+UbLwe84U08sSTPtIIBbWTkmk9nM++VqXLRRoJJBa4dGXSlnVOxh0GmtQnL2/IBASa9FFFXS0OD4nglYtocXdhNI/IijXdaBBGdf9WYtcd0Yw0CCJPvCgPj50N2ntrjMZ1UNeXaajqbrXJy+2Ys07vQvajHX8CsdBo0iawnrB5xj2lGtb/Pfk/ZB9MChVaJc6c34Amu0jQse9iTRkmVPeyETgDLTXZKNIbw3LWos17/TuQVlUIVTVtbBROqFn8h5qG9Bg1Qufc5xoTNNlCeXdC10EKTKeJFMrFNBRYiLTUaxThM55C2nYNqPE+V+UtlVnWBa9MIs179QOaK5y7rJB9JUo9f8KPZs3MFChK0WB7RQ6NxiintS0EAsTqyQ8614UWYlQQEcpkeu/kkTq/yx0zhsYpNCzOaKuQlt5CopVZRGrq1ZfKa2h7++9cxABxXVNEpn2Z6ytG4TOO0LUZRca0gVMqARZYuIdaLrjhAI7RLTO/nLdmCXxBU/i/9t6nfcCphUM3m+0B9R32lJ4BvISt0N94VV+1DUoqTFi4RN+Tk8SrWqhNEb7UxSaSui8I8S42gPU6T13ykaxzhuq3ypRaBMk8Vn3yg4UPob/N9qe9zTdtsx8VwfUF5FQneQQ94Nc9LvN+255C1EHWYHq/O8GRWWMH3JbSK7VWvxVMyTyjH/Hm7QKXmAnsRSMo7iCYvN/jTe5IRTGU4y/Uua0xpS34XxWDZsqKPTcnmG3WIO3X/0BWletcBg7Kdctoe0DmEjNmLwz8W6pUrdP8AI7iIkqnq9Kf4DiWnSg4BcoVq8YaED/ic31HO6IvVxGxkIwD9xPbdqMLXAndYsGKLQfCYexg2SVI7RPMYHaIkCueU/wooGIvmqQMn0G5hlb9PXrA8XfwwTnCYZ1M5fvGxmbdtCnQPRFhFAeuJvB0dlXmKAQtEg1GrI+96kYgAYaYeVR9cT8XWkPDWaeACamJCi27EEejZ9MXUVDuB4fFSNLU1DlPV/RuhrXG1phoRf4r4vjCixilSXCHVi7fYnHHfNdyaoqtRN7uQBmsF4Bpe4LwYv7IRu37YlRUoU+VSisu0hCvWjnvqnavFo4cLkUbgywpgF97qHJvQGbD+TAhQzHdq0h637i6jVosGMt2+ySegg/bICTGJ5W13YE9K0UjcwJ5YlbiCJDsUZyHTDIYgxkXasFw/dBDF8fsDP9RzwKYVBDCwM32V7cF1EUhYsENthaHFuQgK6AxyZ1r4zPZvsr2QNa214WoYFJq8/BRxsvw9JIDYTEZSAzGZer9RAQngxTQi/A+yFI/J246hxkFDrWDbZ5fza8s+YcSMJTWPy7T+bDnlPd3ILiXCrXwIfrL+E9zsMHeI/3vjnPhOsIOlHce04XscIqlC+uJoqsa0lsXjiXgQXou24RCt8XMZ6149Xq7oGAviCTOdbnGijXreCX9sDimPxdlHCha1zNRap0h/edoskiRZWNoMYXPWfjFZiw/AwK8ixMQnGRiOnvN1ecgVnrLoHyVAEUXGtg1ziKfLxu60EDvMPjfBcFORnFSaS/38Zj72BBWBeXBVko1PZOxyfYULJouqNQ3ria9M4Xx+Vt5DKwIDgq87f2N7q1NRJFqn1buQcpM3+NF93sHYkN5bryHuu9W2FxTF4gJtztk7rJohxKreCvbfAgITZilV2HfiCRqm9nb6dEFr0GXY/yGiNjdZ3JoU/O+0NqXp3LF54QJDa2F8UUzOEy6AEUoX3WVa7f3muHlr5ATm2gHXtiYWPM1le1AEvXRBSr22dfrUrIYb7lSAcVts3HPdA7gGJdEpt7aw8AKwRG6R9FTQzgu2pvkCvKL7EPzHeV6/qLuDpIrvtXHrwXgmMNz2LC2gWucxn90ZJoCx3z8YYziqqNJB7BvHIV6Z0Hx+T/jcugB2Qy2W1o4NYIXXeLGpndVtUMijhAoVkmGCGWHkmkdj7mR5+Rks+BCR/SiJijJEvi8wsYOxHU2Iq5XCaYVy5k26Lo3Oe4DHqBdrvuy7pKFLrSwN0pP+8O6SAWRiT/GCPW9I6YhtNSvsuDCeKr2LIHA5W6Ic+6sZe0zCKtkyWiJyrQDx7qytOOkAzUYlXWf3AZ9AImaRSGkZDB632tbrzDVtUa6Oy+wDpoLRFqaYLKBH66TwSxUSxdjfk6VzP0gEH0VQVAjcLoi6Vs2Fko35xNvE+rLIbP6u8DNNkJw+lsrk2QCW0q7Ai6v9HSr7VEKtedoMEDfrpPyA4Z7sPwTpkjaw9zr7nXqlID5khSGRhNA3fy04DAzqO5kGHnl7POxrVak2XtL5dTqa+VHSlhc0T6A9bOk1FL3dsDyHXlEkWWfV1VA8F/z9HvoInOQee4NkB+9a/8cL+gXbYxISk9HsRFlKkzPGJVL2RUsYGCeVuTYEW0HuLOFcGRK2WM8eeKYYVaD/O3JcOUsIusk3/62ouQWeza+bRCIOu6Ij7bLdYVC4WBNlXhMugT1OGPtfRhrLU7/OWat/hh5wBLzNPYqArk/7ULgUq9w/vBOkoaWkzUV3tk+h/ds66xFTYn5MD0dZeYIKlzn41ycdL/SdAfbboCp1IrPLb1Pa2HMNCmvk4h1rwDjjxxBMl1YwLl+s8suwd6EksSCp7FkuP0nWCsSUuD13rRPv7U0W8ouQk5yJJK79k13GjqcPmyRNS4WrQvbxZ//fZhKA0qZwMfQm/7UM5k2GEDfx0iBgItbelSV0CuLcHbeI/4HAX6MP6YQS4ZHKBq7ZSuqvtNiBgQl3KGvoFaX0SrSkPry/lr903QBrHY8kuyfThnkDK+ZJjuFesKVNa7rlcAG99Z1F3JX7vvQiLXPYuCdfoAAe2w3GAc/l8BEKgxN9RGJHWh0dwJobwcCslXxd8B+959BlKlfio+lFOnDG45UQAdDg6v0vY8Z3WVUNvQ2u8UPzpHm5Cl5d6AU2kV0G7n3Fh7QV1t1PeanFPDehRo0w5btLZ1sHOphuuwbl8WrI3PGlIXHYl95+lCwbwcNPGd0uR7Gp7nr9r3MWNLyp1oXZfiAzptPQHazcVRsNlIB3Pg/W/OQ8COFFi1Nx0iT+RDNL7E6DOFbK7qN7EZIMFzM9dfYhOgacL0vkvFPAbngSZWz1h7kXVtzd+aDIsj0ljf7NcqHSzac5X10dL5yWzO6wWWDhqIcPTrAWtEX3Leh4Xdfqo+cr7q4rf5ax5ewAf8jFcbghlgL2mu5uG0we3RT9Yps6geNh7AKnF7CkwLuwhvrTzLJllbk8S6eE8aRJ7MhwoXbeFDu/MlZ1+HDQeyIWhnKvtSYTqmZ0bYJTaIMH9LMnyu1IIKC9O168ZBr3ZoxqGrFU6Z54o+aqc0Urulz2+khgVoIoNS8xKWboe+ybElZfiRq4MTqzVolpaptYNNei6ubILiqiaoRGEaW9qhBavh/lwFZ4NcGhIjpcdMKlhD9VWt4SSxGvH9zRjeQrVC0O4rD6JbEMlKqHCG9EtniXWk4TDm2dDEqj29UJXzEH+NIwuBiozRUrlun0Shc+gTcHQl2ObAIhyD4kKJYH72R+a2KXWXpXLNC1414uQpBOzS/wqddSm2LrU0YcYei7sjscipVeRwB31E+c0Bg2Be9iD12tDCFN0rSy4ng8JfkwhbUDUjUWr/NyBCMwctbjhZXsy4ZCzhNBE8G48V49/VX8ZmNdU3tYpytRMlNUZaPrIJ8+465mEpVukG/NWg/3kVf4+QW0Y9NgGR2leC5br/5K9DxGAx55DhW7SmFi1LswAzFBsh07q6ura2tXXGdnZ1Hce/zyNTkTnIQmRNR0ensaOz07HdLbwYvFHYYWptb2kytde3tHaUo9U04LNeQh6/aWw9VlVnOlBUadxdWm1cXVjZOK8d4LkL2TW/m7s79TeB6vSfL5CnfF+2s/Bunq0iPAF8l7cj70bejy/uQeRDdaauX7a0tPw7/v0w8rfIFzjHImdy+uOLDyM2m9pDsRW+A49F2jAGeRJ5AjpaUjoaK9s7GyuBsa1ZR8cF2dl+ubOxgoXruFkCHcYaLR63xNvS1hlR29i6ubaxZQv+bimvNa2uqG0OrqpvCSqsMs5uaml/CcNReh9BPny9oeU3+dU3f11cZfpVSn7tz3X5jf8cl1Z3Pz7zgJPiRYwQoBhGIe8imjKi/7c5XV1v3kOgNSN6vPmcLY1Z6jHmcLQqdpshZgmPUoQI16OrIOFZa7G2ZO19nZ/qhdacmEdviVUNXSUHRbGKcB+6Cg6JYhXhGxDFKsJnIIpVhM9AFKsIn4EoVhE+A1GsInwGolhF+AxEsYrwGYhiFeEzEMUqwmcgilWEz0AUqwifgShWET4DUawivBKQsuXOmqzwe7uy4u81GMK+RcfaDLGiWEV4ByBdfY8pa++fm/Xqb1BgR5Fa/Ftv1KtPN6dHhzSnqwKb9aoGswAdEatJr/qsWR/3s+aM6Gea9KqpRp1qplEf9XqLXvmbLsOh+/hlIkT0DwC/US0Z0f+HQrxiLbCB2JK9dxyPohdsxWpMV5dg/Desj7HjelUXHs/A38+6MmN+zC8XIaI3IDHxDmO66gsUi8lWSAMRrzmH176BFvkuHh0DgOw2PD5W6Jr+iPEVGDP2jhtWC56JcB5IbGj12oTEYyfbUWQXTbq9bOdFjO/36DqcwN8mgbADU69qbNJFvcgSJ0KEGV3XD92HokoUFI2DRMGmmbKUz+HflgbYYImFp7ArM/ZBnkwRItAK5qgeQpF1CQnGEaLg27HxNREbTC87Iz6iKSu6z+0lRYxAtOVglS0gFAdJQl0A3Z9s396coVIb9eohC9aUHTONJ1OECO5fCgjFfqqym/XRT/PoGAAS72jWqYPRwhqFr7GPppwYwf37RYxQtGZEjxYSyoDUq66jBQ2gflkeVS806aMebdKpk1DQHYJxDMC2nDhRrCJugfusrRaR0N8CfaFmYvVuwsZPhClN+S88in7BrGym+i0Udq5QfP2xNSf6bR6NCBEopuID30NhpDKB6FXXGtNVb9PokrVoiCjQTvw9RVU+JMocXluqPl31ALoGQRhHrXW8ZmL8p7DQ7ES2WI7ro/7ILxchotvyGTNUq1EcelO66t/omEkf/bxFMExIqny2plXiziGtvkcNMFOW8l9MevWuHtYc2aJXr2eDEzrVq8169TU81mTMUjhnx2gRwwdtubF/sG4kmTSqX6KYuojN6dEbmtLVP+KnnAIA9e14j79g/Blmsbblxc/tPuc3ypiheBLdjV1QnjC0ffhFDD+QQIj8v340qQStW6pRHzXPdhjVmahLi7sfBbuTCTZn7//ww36gVt8OeI7/V4SIvsGqa330c12ao9/hh1wGmn5Igu0yqH7AD4noAT+//wf/mE33mq1hMQAAAABJRU5ErkJggg==</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="3" Selected="False" />
+        <Tool ToolId="7" Selected="False" />
+        <Tool ToolId="97" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

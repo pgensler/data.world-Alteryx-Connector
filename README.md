@@ -1,7 +1,7 @@
 # data.world-Alteryx-Connector
 Connect to the data.world API with Alteryx to integrate data into your own analysis
 
-In order to use this macro, the `.yxmc` file supplied here needs to be placed in your macro folder, which can be configured via:
+In order to use this macro, the `.yxmc` file supplied here needs to be placed in your macro folder, which can be configured in Alteryx via:
 Options->User Settings->Macros
 
 Please note that this macro is intended for querying datasources directly on data.world with SQL or dwSQL to import into an ALteryx Workflow. Currently, it does not allow import of files which cannot be directly queried on data.world

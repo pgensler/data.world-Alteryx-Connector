@@ -1,0 +1,13 @@
+if you try to output two messages at the same time and one works and the others does not,
+an unhandled exception occurs in alteryx
+
+
+GET DOWNLOAD-says it only accepts .zip, but I tried with .csv and it works?
+
+Figure out how to get a link for the example workflow located in these directories:
+C:\Users\Peter Gensler\AppData\Local\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\02 Preparation
+
+final product:
+-two tools
+--data.world_sqlquery: sql to get data from data.world
+--data.world_downloadzip: download files as .zip folder on computer
